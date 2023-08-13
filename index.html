@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gift Victor Assignment on  Javascript </title>
+ </head>
+
+ <body background="images/logo.jpg">
+     <!----listed elements--> 
+
+
+ <h1 style="text-align: center;"> List all Element.QuerySelectorALL In javascript DOM </h1>
+<h2 style="text-align: center;"> List of Wild Animals </h2>
+ <ul>
+    <li class="list"> Lion </li>
+    <li class="list"> Snake </li>
+    <li class="list"> Tiger </li>
+    <li class="list"> Hippopotamus </li>
+ </ul>
+<h2 style="text-align: center;"> List of Domestic Animals </h2>
+ <ul> 
+<li class="list" padding="40px"; margin="20px"> Dog</li>
+<li class="list"> Bird </li>
+<li class="list"> Hen </li>
+<li class="list"> Rabbit </li>
+ </ul>
+
+ </body background="images/bgcolor.jpg" alx="zoo">
+<style>
+    .list{ max-width:800px;
+  margin: auto; 
+  padding:30px;
+  border:1px solid #fffbfb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Arial, sans-serif; 
+  background-color: rgb(202, 180, 180);
+}
+</style>
+
+ <script type="text/javascript">
+//Query selector All lets find the element that matches the css selector 
+
+
+const Animals = document.querySelectorAll(".list");
+console.log(Animals);
+
+Animals.forEach((e) => {
+    e.style.color = "blue";
+});
+</script>
+
+  </html> 
